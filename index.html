@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TWINGO Official</title>
+
+<link rel="manifest" href="./manifest.json">
+<link rel="icon" href="./icon-192.png">
+<meta name="theme-color" content="#0a0f3c">
+
+<style>
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: white;
+  background: linear-gradient(145deg,#080d30,#24104c,#061d38);
+}
+main { padding: 25px; }
+img {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+}
+h1 { color: #ffd75e; }
+p { font-size: 17px; }
+button {
+  width: 250px;
+  padding: 16px;
+  border: 2px solid #ffd75e;
+  border-radius: 30px;
+  background: linear-gradient(90deg,#087d65,#c18b18);
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+<main>
+<img src="./icon-512.png" alt="Twinverse Goshen Logo">
+
+<h1>TWINGO OFFICIAL</h1>
+
+<p>Harmonious Living and Prosperity</p>
+
+<button onclick="location.href='https://sites.google.com/view/twingoofficial/home'">
+ENTER TWINVERSE GOSHEN
+</button>
+</main>
+
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("./service-worker.js");
+}
+</script>
+</body>
+  </html>
+  
